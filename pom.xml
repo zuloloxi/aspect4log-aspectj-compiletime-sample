@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.foo</groupId>
 	<artifactId>aspect4log-aspectj-compile-time-sample</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.7</version>
 	<description>This project shows how to use aspect4log with compile time weaving</description>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -40,7 +40,7 @@
 					<dependency>
 						<groupId>org.aspectj</groupId>
 						<artifactId>aspectjtools</artifactId>
-						<version>1.8.3</version>
+						<version>1.8.5</version>
 					</dependency>
 				</dependencies>
 			</plugin>
@@ -57,7 +57,7 @@
 		<dependency>
 			<groupId>net.sf.aspect4log</groupId>
 			<artifactId>aspect4log</artifactId>
-			<version>1.0.6</version>
+			<version>1.0.7</version>
 		</dependency>
 	</dependencies>
 </project>
